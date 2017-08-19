@@ -1,0 +1,124 @@
+.p1{ font-family: 'Saira Condensed', sans-serif;
+	font-size: 40px;
+	}
+.p2 {font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+}
+.p3{font-family: 'Indie Flower', cursive;
+	font-size:40px;}
+
+
+
+.elemento1{
+    background:yellow;
+    width:120px;
+    height:120px;
+    padding:10px;
+    border:10px cyan solid;
+    margin: 30px 50px;
+    box-sizing: border-box;
+    display:inline-block; 
+		}
+
+.menu li{
+	display:inline;
+	margin:0 20px;
+	}
+
+.te{ width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background: blue;
+     display:inline-block;
+      	}
+.le{width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background: green;
+     display:inline-block;}
+.fe{width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background: red;
+ 	display:inline-block;}
+
+ 	/*.te, .le, .fe{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	display:inline-block;
+ 	}
+
+ 	.te{
+ 		background:blue;
+ 	}
+
+ 	.le{
+ 		background:green;
+ 	}
+
+ 	.fe{
+ 		background:red;
+ 	}*/
+
+ 	.cuadrado{
+ 		width: 100px;
+ 		height: 100px;
+ 		background: blue;
+ 		display:inline-block;	
+ 	}
+
+ 	.relativo{
+ 		background: red;
+ 		top:55px;
+ 		left:67px;
+ 		position:relative;
+ 	}
+
+ 	.fijo{
+ 		background: orange;
+ 		top:0px;
+ 		left:0px;
+ 		position:fixed;
+ 	}
+
+ 	.absoluto{
+ 		background: pink;
+ 		top:50px;
+ 		right:220px;
+ 		position:absolute;
+ 	}
+
+ 	
+.cuadradito {
+    width: 70px;
+    height: 90px;
+    display: inline-block;
+}
+.uno {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+}
+.dos {
+    position: absolute;;
+    top: 10px;
+    left: 90px;
+    background: green;
+}
+.tres {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    background: blue;
+}
+.cuatro {
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    background: yellow;}
+
+.flotar{  }
+
+

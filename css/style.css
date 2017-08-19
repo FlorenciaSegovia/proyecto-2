@@ -1,0 +1,77 @@
+/*
+Estilar a traves de etiqueta
+p{
+
+color:blue;
+background:yellow;}
+/*
+
+/*Estilar con clase */
+
+
+/*
+color: : 1) PALABRA CLAVE
+2)HEXADECIMAL
+3)RGB
+4) RGB con ALFA (de 0 a 1) opacidad
+*/
+
+body{
+	font-size: 12px;
+}
+
+.destacado { color:rgba(100,23,0,0.5) !important;
+ }
+
+ h1.destacado{
+ 	color:blue;
+ 	background:yellow;
+ 	font-family: 'Abril Fatface', cursive;
+ }
+
+ .destacado{color:red;
+ 	font-size: 27px;
+ 	font-weight: bold;
+ 	font-style: italic;
+ }
+
+ .parrafo{line-height: 40px;
+ 	letter-spacing: 2px;
+ 	font-family: 'Abril Fatface', cursive;
+ 	/*font-family: arial, helvetica, sans-serif;*/
+ 	/*font-family: "times new roman" (win), times (mac),serif;*/
+ }
+
+/*estilar con ID*/
+
+ #titulo{
+ 	background: pink;
+ }
+
+ .icono{ 
+ 	font-size: 40px; }
+
+ .facebook{
+ 	color:green;
+ }
+
+ .twitter{
+ 	color:blue;
+ }
+
+ .linkedin{
+ 	color:purple;
+ }
+
+ header p a{ 
+ background: blue;
+ color:white;
+ font-size: 40px;
+ text-decoration: none;
+ text-transform: uppercase;
+  }
+
+ header p a:hover{ /*que no haya espacios*/
+ background:green;
+ color:yellow;
+  }
